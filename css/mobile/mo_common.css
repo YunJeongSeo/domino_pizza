@@ -1,0 +1,13 @@
+@media screen and (max-width : 450px){
+ 
+    /* common */
+  .sec_inner{
+    width: 450px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  
+    /* border: 1px solid #999; */
+  }
+    
+
+}

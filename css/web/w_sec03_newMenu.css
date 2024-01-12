@@ -1,0 +1,146 @@
+/* section03 (new menu) */
+.sec03 .sec_inner{
+    width: 100%;
+    padding: 0;
+    position: relative;
+    /* background-color: #F5F5F5; */
+    overflow: hidden;
+  }
+  
+  .menu_img03{
+    width: 1400px;
+    height: 100vh;
+    border-radius: 30px;
+    /* background-color: lightgray; */
+    background: url(../../img/3.menu/new/8.jpg) no-repeat center/cover;
+   
+  }
+  
+  .txt_wrap03{
+    width: 600px;
+    height: 440px;
+    border-radius: 0 50px 50px;
+    position: absolute;
+    bottom: 134px;
+    right: 36px;
+    box-shadow: 10px 10px 25px 3px rgba(0, 0,0,0.04);
+    padding: 60px 50px;
+    box-sizing: border-box;
+  
+    background-color: #ffff;
+  }
+
+  .point_circle03{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #E51737;
+    position: absolute;
+    top: -42.5px;
+    left: -42.5px;
+  }
+  
+  .title_txt03>p{
+    font-family:'GmarketSansMedium';
+    font-size: 44px;
+    font-weight: 900;
+  }
+  
+  .title_txt03{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 70px; */
+  }
+  
+  .menu_name03{
+    font-size: 32px;
+    font-weight:500;
+    line-height: 46px;
+    margin-bottom: 30px;
+  }
+
+  .txt_wrap03 .more_wrap{
+    margin-bottom: 50px;
+  }
+  
+  .sub_txt03{
+    font-size: 14px;
+    line-height: 20px;
+    color: #888888;
+    margin-top: 2px;
+  }
+
+@media all and (max-width : 1550px){
+  .txt_wrap03{
+    width: 40%;
+    height: 400px;
+    border-radius: 0 20px 20px;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(120%, 90%);
+    box-shadow: 15px 10px -20px -20px rgba(0, 0,0,0.04);
+    padding: 35px 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffff;
+  }
+
+  .point_circle03{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #E51737;
+    position: absolute;
+    top: -27.5px;
+    left: -27.5px;
+  }
+
+  .title_txt03>p{
+    font-family:'GmarketSansMedium';
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+
+  .menu_name03{
+    font-size: 26px;
+    font-weight:500;
+    line-height: 26px;
+    /* margin-bottom: 30px; */
+  }
+
+  
+
+  
+}
+
+@media all and (max-width : 1100px){
+
+  .sub_txt03{
+    display: none;
+  }
+
+  .sec03 .more_wrap{
+    
+    width: fit-content;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border: 1px solid #c2bfbf;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 300;
+    margin: 0 0;
+  }
+
+  .sec03 .more_wrap p{
+    font-size : 20px
+  }
+
+}

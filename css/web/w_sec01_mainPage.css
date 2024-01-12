@@ -1,0 +1,13 @@
+/* section01 (main page) */
+.sec01 .sec_inner{
+    padding: 0;
+    height: 1080px;
+    /* background-color: beige; */
+}
+
+.mainimg{
+  width: 1920px;
+  height: 1080px;
+  background: url(../../img/2.main_img/10.jpg) center/cover no-repeat;
+}
+

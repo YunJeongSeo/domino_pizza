@@ -1,0 +1,147 @@
+/* footer */
+footer{
+  height: 518px;
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+}
+
+.mo_footer{
+  display: none;
+}
+
+.web_footer{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_inner{
+  width: 1920px;
+  height: 100%;
+  padding: 70px 100px;
+  box-sizing: border-box;
+  
+  /* border: 1px solid crimson; */
+}
+
+.leftF, .rightF{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+.number_wrap{
+  width: 340px;
+  height: 80px;
+  background-color: #E51737;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number_wrap > img{
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+
+  /* border: 1px solid #000; */
+}
+
+.number_wrap>p{
+  font: 800 42px/0px 'GmarketSansMedium';
+  color: #fff;
+  transform: translateY(4px);
+}
+
+.copy_wrap{
+  font-size: 16px;
+  line-height: 30px;
+  color: #A7A7A7;
+}
+
+.copy_wrap>p:nth-child(2){
+  display: none;
+}
+
+
+.rightF >img{
+  width: 340px;
+  height: 100px;
+  transform: translateY(-14px);
+  /* border: 1px solid #000; */
+}
+
+.top_icon, .bottom_icon{
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 20px;
+}
+
+.top_icon>p{
+  font: 300 20px/23px 'GmarketSansMedium';
+  text-transform: uppercase;
+  color: #BABABA;
+  
+}
+
+.icon_wrapF img{
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  
+  /* border: 1px solid #000; */
+}
+
+
+@media all and (max-width : 1300px) {
+  .footer_inner{
+    padding: 20px 0;
+  }
+  .web_footer{
+    display: none;
+  }
+
+  .mo_footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mo_footer >img{
+    width: 280px;
+    margin-bottom: 30px;
+    transform: translateY(3px);
+  }
+
+  .top_icon, .bottom_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  
+  }
+
+  .icon_wrapF{
+    width: 320px;
+  }
+
+  .icon_wrapF img{
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    
+    /* border: 1px solid #000; */
+  }
+
+  .copy_wrap{
+    text-align: center;
+  }
+
+
+  /*모바일 반응형 768px */
+}

@@ -1,0 +1,42 @@
+@media screen and (max-width : 450px){
+  /* quickmenu */
+  
+  .quick_wrap{
+      width: 86%;
+      height: 55px;
+      border-radius: 45px;
+      background-color: #E51737;
+      position: absolute;
+      top: 611px;
+      left: 50%;
+      z-index: 8;
+      margin-left: 0px;
+      transition: 0.3s;
+      
+      
+      
+    }
+    
+    .quick{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 1;
+    }
+    
+    .quick a{
+      color: #fff;
+      font: 800 17px/25px '';
+    }
+    
+    .quick li:nth-child(2){
+      border-left: 1px solid #C3C3C3;
+      border-right: 1px solid #C3C3C3;
+      margin: 0 25px;
+      padding: 0 25px;
+      box-sizing: border-box;
+    }
+  
+  }

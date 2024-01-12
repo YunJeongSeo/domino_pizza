@@ -1,0 +1,31 @@
+@import url(reset.css);
+@import url(common.css);
+
+
+/* web */
+@import url(web/w_header.css);
+@import url(web/w_sec01_mainPage.css);
+@import url(web/w_sec02_eventPage.css);
+@import url(web/w_sec03_newMenu.css);
+@import url(web/w_sec04_signitureMenu.css);
+@import url(web/w_sec05_membership.css);
+@import url(web/w_sec06_search.css);
+@import url(web/w_footer.css);
+@import url(web/w_quickmenu.css);
+@import url(web/w_logmenu.css);
+
+
+/* mobile */
+@import url(mobile/mo_common.css);
+@import url(mobile/mo_header.css);
+@import url(mobile/mo_sec01_main.css);
+@import url(mobile/mo_sec02_event.css);
+@import url(mobile/mo_sec03_new.css);
+@import url(mobile/mo_sec04_signaituer.css);
+@import url(mobile/mo_sec05_membership.css);
+@import url(mobile/mo_sec06_search.css);
+@import url(mobile/mo_footer.css);
+@import url(mobile/mo_quickmenu.css);
+
+
+

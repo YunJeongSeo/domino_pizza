@@ -1,0 +1,165 @@
+@media all and (max-width : 850px){
+ 
+      /* section05 */
+  .sec05 .sec_inner{
+    width: 81.25%;
+    display: block;
+    margin: 70px 0; 
+}
+.sec05 .sub_wrap{
+    display: flex;
+}
+
+.sec05 .sub_wrap>p{
+    margin-bottom: 0px;
+}
+
+
+.sec05 .txt_wrap{
+    width: 100%;
+    
+    /* background-color: lightgoldenrodyellow; */
+    }
+    
+    .sec05 .title02{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    }
+    
+       
+    .sub_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 8px;
+    }
+    
+    .sub_wrap>p{
+    font-size: 22px;
+    color: #444444;
+    }
+    
+    .sec05 .more_wrap{
+    width: fit-content;
+    /* padding: 7px 10px; */
+    padding: 10px 25px;
+    box-sizing: border-box;
+    border: 1px solid #c2bfbf;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: -3px;
+    }
+    
+    .more_wrap p{
+    font-size: 16px;
+    /* padding: 20px 50px; */
+    }
+
+
+
+
+
+.con_wrap05{
+  margin-top: 20px;
+    display: flex;
+}
+
+.con05{
+    /* width: 132px; */
+    width: 27.3vw;
+    height: 130px;
+    border-radius: 15px;
+    background-color: #E51737;
+    /* padding: 13px 10px; */
+    padding: 2.8% 2.2%;
+    box-sizing: border-box;
+}
+
+.con05:nth-child(2){
+    margin: 0 7px;
+    background-color: #0078AE;
+}
+
+.con05:nth-child(3){
+    background-color: #F6F6F6;
+}
+
+.con_wrap05 .con05:nth-child(3) p{
+    color: #424242;
+}
+
+.con_title{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.con_title p{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+.con_point{
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 52px;
+    color: #fff;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+    
+
+}
+
+@media all and (max-width : 450px) {
+
+    .sec05 .sec_inner{
+        width: 100%;
+        padding: 0 20px;
+        margin: 0;
+    }
+    .con_point{
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 52px;
+        color: #fff;
+        margin-left: 22.7%;
+        margin-top: 10px;
+    }
+
+    .more_wrap{
+        margin-top: 15px;
+    }
+    .sec05 .more_wrap{
+        margin-top: 15px;
+        padding: 10px 20px;
+        
+    }
+
+    .more_wrap>p{
+        font-size: 12px;
+    }
+
+    .sub_wrap{
+        flex-direction: column;
+    }
+    .sec05 .sub_wrap{
+        flex-direction: column;
+    }
+    .sub_wrap p{
+        font-size: 16px;
+    }
+
+    .con_wrap05{
+        margin-top: 35px;
+    }
+}
